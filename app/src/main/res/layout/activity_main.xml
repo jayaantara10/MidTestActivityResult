@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="center"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMPLEMENTASI ACTIVITY RESULT GET CONTENT"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgv_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:layout_marginVertical="20dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_get_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/purple_700"
+        android:text="GET IMAGE"
+        android:textColor="@color/white"/>
+
+
+
+
+</LinearLayout>
